@@ -1,0 +1,67 @@
+.nav_bar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:dodgerblue;
+    justify-content: space-between;
+    margin-top: 0px;
+    align-items: center;
+    padding-right: 10rem;
+   
+  }
+ 
+h2{
+    color : darkgray
+}
+.user
+{
+    display: flex;
+    justify-content: center;
+}
+.form
+{
+width: 600px;
+  border: 1px solid black;
+ justify-content: center;
+ margin: 0 auto;
+
+}
+input{
+    
+    width: 450px;
+}
+input, label {
+    margin: 5px;
+    color: darkgray;
+    font-weight : bold;
+  }
+
+.buttonsclass
+{
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+select
+{
+    width: 450px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cards > div
+{
+
+
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    border-radius: 10;
+    width: 20rem;
+   
+    text-align: center;
+    justify-content: flex-start;
+
+}
