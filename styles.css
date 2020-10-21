@@ -6,11 +6,22 @@
     margin-top: 0px;
     align-items: center;
     padding-right: 10rem;
-   
+   color: white;
   }
- 
+  .nav_bar p:first-child
+  {
+      font-size: 1.4rem;
+  }
+  #bold_H
+  {
+    font-weight : bold;
+  }
 h2{
-    color : darkgray
+    color : rgb(80,80,80)
+}
+#cardheading{
+    color : rgb(80,80,80);
+    font-weight: bold;
 }
 .user
 {
@@ -23,6 +34,7 @@ width: 600px;
   border: 1px solid black;
  justify-content: center;
  margin: 0 auto;
+ border-radius: 5px;
 
 }
 input{
@@ -31,7 +43,7 @@ input{
 }
 input, label {
     margin: 5px;
-    color: darkgray;
+    color: rgb(80,80,80);
     font-weight : bold;
   }
 
@@ -41,27 +53,32 @@ input, label {
     margin: 0 auto;
     text-align: center;
 }
+.button2{
+    background-color :dodgerblue;
+}
 select
 {
     width: 450px;
 }
 .cards{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding-left: 90px;
+    
 }
 .cards > div
 {
 
-
+    align-items: flex-start;
     margin: 10px;
     border: 1px solid black;
     border-radius: 25px;
-    border-radius: 10;
-    width: 20rem;
+    
+    width: 25rem;
    
     text-align: center;
-    justify-content: flex-start;
+   
 
 }
